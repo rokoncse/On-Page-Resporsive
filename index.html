@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>On Page | ROKON</title>
+	
+	<link rel="icon" href="img/Icon1.png" alt="" title="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/set2.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	
+  </head>
+  
+  
+	<body>
+	
+		<div class="header_top">
+			<div class="container">
+				<div class="row">
+					<!--
+						<div class="col-md-6 col-sm-6 col-xs-12 left">
+						<ul class="list-inline">
+							<li><a href="#"><img src="img/facebook.png"></a></li>
+							<li><a href="#"><img src="img/google_plus.png"></a></li>
+							<li><a href="#"><img src="img/linkedin.png"></a></li>
+							<li><a href="#"><img src="img/youtube_v2.png"></a></li>
+							<li><a href="#"><img src="img/skype.png"></a></li>
+							<li><a href="#"><img src="img/twitter_letter.png"></a></li>
+						</ul>
+					</div>
+					-->
+					<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-6">
+						<ul class="list-inline pull-right right">
+							<li class="mobile"><span class="num_logo"><i class="fa fa-phone" aria-hidden="true"></i></span>+8801 000 000 000
+							</li>
+							<li class="mobile mail"><span class="num_logo"><i class="fa fa-envelope-o" aria-hidden="true"></i></span><a href="mailto:demo@demo.com">demo@demo.com</a>
+							</li>
+							<li class="account">
+								<div class="dropdown">
+									<button id="user_panel" class="dropbtn"><i class="fa fa-user" aria-hidden="true"></i>User</button>
+									<div class="dropdown-content">
+									
+										<ul class="list-inline ">
+											<li>
+												<button id="modal_btn" type="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+										
+												<div id="id01" class="modal">
+												  <form class="modal-content animate" action="action_page.php">
+													<div class="imgcontainer">
+													  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+													  <img src="img/avatar2.png" alt="Avatar" class="avatar">
+													</div>
+
+													<div class="container">
+													  <label><b>Username</b></label>
+													  <input id="username" type="text" placeholder="Username" name="uname" required> <br />
+
+													  <label><b>Password</b></label>
+													  <input id="password" type="password" placeholder="Password" name="psw" required> <br />
+														
+													  <button class="ani_btn"><span>Login</span></button> 
+													  
+													</div>
+
+													<div class="row">
+														<div class="col-md-6 model_bottom_cancel">
+															<input type="checkbox" checked="checked"> Remember me
+														</div>
+														<div class="col-md-6">
+															<a class="forget_pass" href="#">Forget Password</a>
+														</div>
+													</div>
+												  </form>
+												</div>
+											</li>
+											<li><a href="signup.html">Sign Up</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="navigation_bar">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					  <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" title="logo"></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse single-page-nav" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav navbar-right animated slideInDown" id="nav">
+						<li class="animated slideInRight current"><a href="#slider" >HOME</a></li>
+						<li class="animated slideInLeft"><a href="#about_us">ABOUT US</a></li>
+						<li class="animated slideInDown">
+							 <div class="dropdown">
+							  <a href="#service" class="ser_ac">OUR SERVICES<span id ="caret_down_one"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a> 
+							  <div class="dropdown-content animated slideInRight">
+								<a href="#">OUR SERVICES ONE</a>
+								<a href="#">OUR SERVICES TWO</a>
+								<a href="#">OUR SERVICES THREE</a>
+								<a href="#">OUR SERVICES FOUR</a>
+								<a href="#">OUR SERVICES FIVE</a>
+							  </div>
+							</div>
+						</li>
+						<li class="animated slideInLeft"><a href="#portfolio">PORTFOLIO</a></li>
+						<li class="animated slideInRight"><a href="#our_team">WONDERFUL TEAM</a></li>
+						<li class="animated slideInDown">
+							 <div class="dropdown">
+							  <a href="#project" class="ser_ac">OUR PROJECT<span id ="caret_down_one"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+							  <div class="dropdown-content animated slideInRight">
+								<a href="#">OUR PROJECT ONE</a>
+								<a href="#">OUR PROJECT TWO</a>
+								<a href="#">OUR PROJECT THREE</a>
+								<a href="#">OUR PROJECT FOUR</a>
+								<a href="#">OUR PROJECT FIVE</a>
+							  </div>
+							</div>
+						</li>
+						<li class=""><a href="#contact_us">CONTACT US</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+	</div>
+	
+	
+	<!-- Slider Section -->
+	<div class="slider" id="slider">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				<span class="shadow"></span><img src="img/FreeGreatr.jpg" alt="" title="">
+					<div class="carousel-caption">
+						<div class="carousel_text">
+							<h1 class="text-center animated fadeInUp">Welcome To Our Project</h1>
+							<hr class="animated fadeInDownBig" id="slide_hr" />
+							<div class="row">
+								<div class="col-md-6 animated fadeInLeft content_left">
+									<p class="text-center lorem_text lorem_para_one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. <br />
+									<span class="boss_img"><img src="img/suser.png" alt="" title=""></span><em id="name_owner">Mark Zuckerberg</em> <br /> <small id="founder">Founder &amp; CEO, Facebook. </small></p>
+								</div>
+								<div class="col-md-6 animated fadeInRight content_right">
+									<p class="text-center lorem_text lorem_para lorem_para_two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. <br />
+									<span class="boss_img"><img src="img/suser.png" alt="" title=""></span><em id="name_owner">Mark Zuckerberg</em> <br /> <small id="founder">Founder &amp; CEO, Facebook. </small></p>
+								</div>
+							</div>
+							<div class="animated fadeInDown quote">
+								<blockquote>
+									<p class="text-left blockquot">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+									<footer class="text-left">From Lorem Ipsum website</footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+				   <span class="shadow"></span><img src="img/FreeGreatr.jpg" alt="" title="">
+				  <div class="carousel-caption">
+					<div class="carousel_text">
+						<h1 class="text-center animated fadeInUp">Welcome To Our Project</h1>
+						<hr class="animated fadeInDownBig" id="slide_hr" />
+						<div class="row">
+								<div class="col-md-6 animated fadeInLeft content_left">
+									<p class="text-center lorem_text lorem_para_one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. <br />
+									<span class="boss_img"><img src="img/suser.png" alt="" title=""></span><em id="name_owner">Mark Zuckerberg</em> <br /> <small id="founder">Founder &amp; CEO, Facebook. </small></p>
+								</div>
+								<div class="col-md-6 animated fadeInRight content_right">
+									<p class="text-center lorem_text lorem_para lorem_para_two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. <br />
+									<span class="boss_img"><img src="img/suser.png" alt="" title=""></span><em id="name_owner">Mark Zuckerberg</em> <br /> <small id="founder">Founder &amp; CEO, Facebook. </small></p>
+								</div>
+							</div>
+						<div class="animated fadeInDown quote">
+							<blockquote>
+								<p class="text-left blockquot">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<footer class="text-left">From Lorem Ipsum website</footer>
+							</blockquote>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="item">
+				   <span class="shadow"></span><img src="img/FreeGreatr.jpg" alt="" title="">
+				  <div class="carousel-caption">
+					<div class="carousel_text">
+						<h1 class="text-center animated fadeInUp">Welcome To Our Project</h1>
+						<hr class="animated fadeInDownBig" id="slide_hr" />
+						<div class="row">
+								<div class="col-md-6 animated fadeInLeft content_left">
+									<p class="text-center lorem_text lorem_para_one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. <br />
+									<span class="boss_img"><img src="img/suser.png" alt="" title=""></span><em id="name_owner">Mark Zuckerberg</em> <br /> <small id="founder">Founder &amp; CEO, Facebook. </small></p>
+								</div>
+								<div class="col-md-6 animated fadeInRight content_right">
+									<p class="text-center lorem_text lorem_para lorem_para_two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. <br />
+									<span class="boss_img"><img src="img/suser.png" alt="" title=""></span><em id="name_owner">Mark Zuckerberg</em> <br /> <small id="founder">Founder &amp; CEO, Facebook. </small></p>
+								</div>
+							</div>
+						<div class="animated fadeInDown quote">
+							<blockquote>
+								<p class="text-left blockquot">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<footer class="text-left">From Lorem Ipsum website</footer>
+							</blockquote>
+						</div>
+					</div>
+				  </div>
+				</div>
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	
+	
+	
+	<!-- About Us Section -->
+	<div class="about_us" id="about_us" data-parallax="scroll" data-image-src="img/bosses.jpg" alt="" title="">
+		<span class="shadow_about_page"></span>
+		<div class="container">
+			
+			
+			<h1 class="text-center about_header">ABOUT US</h1>
+			<hr id="about_hr_one"/>
+			<p class="text-center about_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+			
+				<div class="row">
+				<div class="col-md-offset-6">
+					<h2 class="info_about">JAMES BOND</h2>
+					<p class="destination">Film Actor</p>
+					<p class="info_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+					<ul class="list-inline info_about_link">
+						<li id="boss_link_one"><a href="#" alt="Facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li id="boss_link_two" alt="Twitter" title="Twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li id="boss_link_three"><a href="#" alt="Linkdin" title="Linkdin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li id="boss_link_four" alt="Youtube" title="Youtube"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- Our Services Section -->
+	<div class="our_service" id="service" data-parallax="scroll" data-image-src="img/cropped.jpg" alt="" title="">
+		<span class="service_shadow"></span>
+		<div class="container">
+			<h1 class="text-center service_header">OUR SERVICES</h1>
+			<span><img class="serb" src="img/bg.jpg" alt="" title=""></span>
+			<span><img class="serb_two" src="img/bg.jpg" alt="" title=""></span>
+			<hr  id="service_hr" />
+			<p class="service_para_main_left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+			<button class="ani_btn" id="more_btn_two"><span>More..</span></button> 
+				
+			
+			<div class="row" id="dervice_row_two">
+				<div class="col-md-4 service_row_one">
+					<span class="service_icon"><i class="fa fa-tasks" aria-hidden="true"></i></span>
+					<h3 class="templates">TEMPLATES</h3>
+					<p class="templates_para_one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+					<div class="progress Progress_one">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%">
+						  35%
+						</div>
+					</div>
+					
+					
+					
+				</div>
+				<div class="col-md-4 service_row_two">
+					<span class="service_icon"><i class="fa fa-cogs" aria-hidden="true"></i></span>
+					<h3 class="Customization">CUSTOMIZATION</h3>
+					<p class="templates_para_two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+					<div class="progress Progress_two">
+						<div class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100" style="width:48%">
+						  48%
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 service_row_three">
+					<span class="service_icon"><i class="fa fa-xing" aria-hidden="true"></i></span>
+					<h3 class="Hosting">HOSTING</h3>
+					<p class="templates_para_three">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+					<div class="progress Progress_three">
+						<div class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width:57%">
+						  57%
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row" id="dervice_row_one">
+				<div class="col-md-4 service_row_four">
+					<span class="service_icon"><i class="fa fa-comments-o" aria-hidden="true"></i></span>
+					<h3 class="Social">SOCIAL</h3>
+					<p class="templates_para_four">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+					<div class="progress Progress_four">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width:78%">
+						  78%
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 service_row_five">
+					<span class="service_icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+					<h3 class="seo">SEO</h3>
+					<p class="templates_para_five">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+					<div class="progress Progress_five">
+						<div class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100" style="width:42%">
+						  42%
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 service_row_six">
+					<span class="service_icon"><i class="fa fa-line-chart" aria-hidden="true"></i></span>
+					<h3 class="Analytics">ANALYTICS</h3>
+					<p class="templates_para_six">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+					<div class="progress Progress_six">
+						<div class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width:68%">
+						  68%
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="portfolio" id="portfolio" data-parallax="scroll" data-image-src="img/23.jpg">
+		<span id="portfolio_shadow"></span>
+		<div class="container">
+			<h1 class="text-center service_header portfolio_header">OUR PORTFOLIO</h1>
+			<span><img class="serb port_border_one portfolio_border_one" src="img/bg.jpg" alt="" title=""></span>
+			<span><img class="serb_two port_border_two portfolio_border_two" src="img/bg.jpg" alt="" title=""></span>
+			<hr  id="service_hr" />
+			<p class="service_para_main_left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+			<button class="ani_btn" id="more_btn_two"><span>More..</span></button> 
+			
+			
+			<div class="row" id="portfolio_row_one">
+				<div class="col-md-6">
+					<div class="content">
+						<div class="grid">
+							<figure class="effect-jazz posi_img_one">
+								<img class=" img-responsive" src="img/25.jpg" alt="" title="">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+							<figure class="effect-jazz posi_img_two">
+								<img class=" img responsive" src="img/18.jpg" alt="img18">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div class="content">
+						<div class="grid">
+							<figure class="effect-jazz posi_img_three">
+								<img class=" img responsive" src="img/25.jpg" alt="img25">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+							<figure class="effect-jazz posi_img_four">
+								<img class=" img responsive" src="img/18.jpg" alt="img18">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" id="portfolio_row_two">
+				<div class="col-md-6">
+					<div class="content">
+						<div class="grid">
+							<figure class="effect-jazz">
+								<img class=" img-responsive" src="img/25.jpg" alt="img25">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+							<figure class="effect-jazz">
+								<img class=" img responsive" src="img/18.jpg" alt="img18">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div class="content">
+						<div class="grid">
+							<figure class="effect-jazz">
+								<img class=" img responsive" src="img/25.jpg" alt="img25">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+							<figure class="effect-jazz">
+								<img class=" img responsive" src="img/18.jpg" alt="img18">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" id="portfolio_row_three">
+				<div class="col-md-6">
+					<div class="content">
+						<div class="grid">
+							<figure class="effect-jazz">
+								<img class=" img-responsive" src="img/25.jpg" alt="img25">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+							<figure class="effect-jazz">
+								<img class="img responsive" src="img/18.jpg" alt="img18">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div class="content">
+						<div class="grid">
+							<figure class="effect-jazz">
+								<img class=" img responsive" src="img/25.jpg" alt="img25">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+							<figure class="effect-jazz">
+								<img class=" img responsive" src="img/18.jpg" alt="img18">
+								<figcaption>
+									<h2>Dynamic <span>Jazz</span></h2>
+									<p>When Jazz starts to chase cars, the whole world stands still.</p>
+									<a href="#">View more</a>
+								</figcaption>			
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="text-right complete">Complete View In Our Protfolio.</p>
+		</div>
+	</div>
+	
+	
+	<div class="our_team" id="our_team" data-parallax="scroll" data-image-src="img/team_bg.jpg">
+		<span id="team_dshadow"></span>
+		<div class="container">
+			<h1 class="text-center service_header portfolio_header">WONDERFUL TEAM</h1>
+			<span><img class="serb port_border_one team_boder_one" src="img/bg.jpg" alt="" title=""></span>
+			<span><img class="serb_two port_border_two team_boder_two" src="img/bg.jpg" alt="" title=""></span>
+			<hr id="team_hr" />
+			<p class="team_para text-center">Neque porro quisquam est, qui dolorem ipsum quia <br/> dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
+			
+			<div class="row" id="team_row">
+				<div class="col-md-4">
+					<img src="img/man1.jpg" alt="" title="">
+					<h3 id="team_boss_head">Ron Evgeniy</h3>
+					<p id="boss_title"  class="text-right">Founder &amp; CEO</p>
+					<p id="team_boss_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<button class="ani_btn  another_more" id="more_btn_two"><span>More..</span></button> 
+				</div>
+				<div class="col-md-4">
+					<img src="img/man2.jpg" alt="" title="">
+					<h3 id="team_boss_head">Vin Diesel</h3>
+					<p class="text-right" id="boss_title" >Chef Engineer</p>
+					<p id="team_boss_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<button class="ani_btn  another_more_two" id="more_btn_two"><span>More..</span></button> 
+				</div>
+				<div class="col-md-4">
+					<img src="img/man4.jpg" alt="" title="">
+					<h3 id="team_boss_head">Mickle Clock</h3>
+					<p  class="text-right" id="boss_title">Operation Manager</p>
+					<p id="team_boss_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<button class="ani_btn  another_more_three" id="more_btn_two"><span>More..</span></button> 
+				</div>
+			</div>
+			
+			<div class="row" id="team_row_bottom">
+				<div class="col-md-6" id="row_bottom_left">
+					<h1 class="amet">Amet porro numquam ratione</h1>
+					<p class="ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ut explicabo magni sapiente.</p>
+					<p class="ipsum_bottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+				</div>
+				<div class="col-md-6" id="row_bottom_right">
+					<img src="img/7.jpg" alt="" title="">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="project" id="project" data-parallax="scroll" data-image-src="img/projects.jpg" alt="" title="">
+		<span id="project_shadow"></span>
+		<div class="container">
+			<h1 class="text-center service_header portfolio_header">OUR PROJECTS</h1>
+			<span><img class="serb port_border_one project_border_img_one" src="img/bg.jpg" alt="" title=""></span>
+			<span><img class="serb_two port_border_two project_border_img_two" src="img/bg.jpg" alt="" title=""></span>
+			<hr  id="service_hr" />
+			<p class="service_para_main_left service_main_right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			<button class="ani_btn" id="more_btn_two"><span>More..</span></button>
+			
+			<div class="row" id="project_row_one">
+				<div class="col-md-4">
+					<ul class="list-inline" id="project_item_one">
+						<li><a href="#"><img src="img/Icon1.png" alt="" title=""></a></li>
+						<li>
+							<h3 id="project_name_head">Block Model</h3>
+							<p id="project_name_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						</li>
+						<li id="foto"><img src="img/fotolia.jpg" alt="" title=""></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline" id="project_item_one">
+						<li><a href="#"><img src="img/Icon1.png" alt="" title=""></a></li>
+						<li>
+							<h3 id="project_name_head">Block Model</h3>
+							<p id="project_name_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						</li>
+						<li id="foto"><img src="img/fotolia.jpg" alt="" title=""></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline" id="project_item_one">
+						<li><a href="#"><img src="img/Icon1.png" alt="" title=""></a></li>
+						<li>
+							<h3 id="project_name_head">Block Model</h3>
+							<p id="project_name_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						</li>
+						<li id="foto"><img src="img/fotolia.jpg" alt="" title=""></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<div class="row" id="project_row_two">
+				<div class="col-md-4">
+					<ul class="list-inline" id="project_item_one">
+						<li><a href="#"><img src="img/Icon1.png" alt="" title=""></a></li>
+						<li>
+							<h3 id="project_name_head">Block Model</h3>
+							<p id="project_name_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						</li>
+						<li id="foto"><img src="img/fotolia.jpg" alt="" title=""></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline" id="project_item_one">
+						<li><a href="#"><img src="img/Icon1.png" alt="" title=""></a></li>
+						<li>
+							<h3 id="project_name_head">Block Model</h3>
+							<p id="project_name_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						</li>
+						<li id="foto"><img src="img/fotolia.jpg" alt="" title=""></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline" id="project_item_one">
+						<li><a href="#"><img src="img/Icon1.png" alt="" title=""></a></li>
+						<li>
+							<h3 id="project_name_head">Block Model</h3>
+							<p id="project_name_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						</li>
+						<li id="foto"><img src="img/fotolia.jpg" alt="" title=""></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="contact-us" id="contact_us">
+		<span class="contact_shadow"></span>
+		<div class="container">
+			<h1 class="contact_head text-center">CONTACT US</h1>
+			<span><img class="serb port_border_one contact_border_one" src="img/bg.jpg" alt="" title=""></span>
+			<span><img class="serb_two port_border_two contact_border_two" src="img/bg.jpg" alt="" title=""></span>
+			<hr id="contact_hr" />
+			<p class="text-center" id="contact_para">Feel Free To Contact Us..</p>
+			
+			<div class="row" id="contact_row_one">
+				<div class="col-md-6">
+					<ul id="contact_list">
+						<li>
+							<div class="input-group">
+								<span></span>
+								<div class="form-group is-empty"><input type="text" placeholder="First Name" class="form-control"><span class="material-input"></span></div>
+							</div>
+						</li>
+						<li>
+							<div class="input-group">
+								<span></span>
+								<div class="form-group is-empty"><input type="text" placeholder="Last Name" class="form-control"><span class="material-input"></span></div>
+							</div>
+						</li>
+						<li>
+							<div class="input-group">
+								<span></span>
+								<div class="form-group is-empty"><input type="text" placeholder="Enter Your Email" class="form-control"><span class="material-input"></span></div>
+							</div>
+						</li>
+						<li>
+							<div class="input-group">
+								<span></span>
+								<div class="form-group is-empty"><input type="text" placeholder="Subject" class="form-control"><span class="material-input"></span></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<textarea class="form-control" rows="8" placeholder="Write Message"></textarea>
+					<button type="button" class="btn btn-primary pull-right" id="send_msg">Send Massage</button>
+					
+				</div>
+			</div>
+			
+			<div class="row" id="contact_row_two">
+				<div class="col-md-4" id="address_section_one">
+					<h3 class="conpany_name">NEW ISLAND LTD.</h3>
+					<p class="company_para">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+					<p class="company_add">House #71 (6th flr.)<br> Road #5, Banani DOHS <br> Dhaka Cantt, Dhaka-1206, Bangladesh.</p>
+					<span class="num_logo" id="email_info"><i class="fa fa-envelope-o" aria-hidden="true"></i></span><a class="email_send" href="mailto:info@multipointit.com">info@multipointit.com</a>
+				</div>
+				
+				<div class="col-md-3" id="address_section_two">
+					<h3 class="recent_post">LATEST POSTS</h3>
+					<p><a class="post_one" href="#">Awesome Design with Overviews</a></p>
+					<p><a class="post_two" href="#">Great Design with Features </a></p>
+					<p><a class="post_three" href="#">Limitless functions &amp; Works </a></p>
+					<p><a class="post_four" href="#">MPS is simple and clean design</a></p>
+					<p><a class="post_five" href="#">Awesome Work Environment</a></p>
+				</div>
+				
+				<div class="col-md-2" id="address_section_three">
+					<h3 class="recent_post">PAGES</h3>
+					<p><a class="pages_one" href="#">Press release</a></p>
+					<p><a class="pages_two" href="#">Terms and conditions</a></p>
+					<p><a class="pages_three" href="#">Privacy policy</a></p>
+					<p><a class="pages_four" href="#">Career center</a></p>
+					<p><a class="pages_five" href="#">Contact us</a></p>
+				</div>
+				
+				<div class="col-md-3" id="address_section_four">
+					<div class="newsletter">
+						<h2>Newsletter</h2>
+						<p>Subscribe to our Daily Newsletter and stay tuned. Lorem Ipsum is simply dummy text of the printing.</p>
+						<form action="" method="post" role="form">
+							<div class="input-group">
+							  <span class="input-group-addon" id="adon">
+								<i class="fa fa-envelope"></i>
+							  </span>
+							  <input class="form-control newsletter_search_here" type="text" id="" name="" placeholder="Enter your email..">
+							</div>
+							<button type="button" class="btn btn-primary pull-right" id="newsletter_btn">Subscribe</button>
+					  </form>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Copyright<sup id="sup"> &copy; </sup>  | All Rights Reserved <a href="index.html" id="copy_footer_company">NEW ISLAND LTD</a> 2016.</p>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-inline info_about_link pull-right">
+						<li id="boss_link_one"><a href="#" alt="Facebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li id="boss_link_two" alt="Twitter" title="Twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li id="boss_link_three"><a href="#" alt="Linkdin" title="Linkdin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li id="boss_link_four" alt="Youtube" title="Youtube"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+  
+  <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+	
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/material-kit.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/custom.js"></script>
+	
+	<script type="text/javascript">
+	//Add new class
+		$(window).scroll(function (){
+			//alert(7);
+			var scroll=$(window).scrollTop();
+			//alert(scroll);
+			//console.log(scroll);
+			if(scroll >=160){
+				
+				$(".navigation_bar").removeClass("navigation_bar").addClass("darkHeader")
+			}else{
+				$(".darkHeader").removeClass("darkHeader").addClass("navigation_bar")
+			}
+		});
+	</script>
+	
+	<script>
+	// smooth scroll page down
+    $(document).ready(function(){
+      $('a[href*=#]').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        && location.hostname == this.hostname) {
+          var $target = $(this.hash);
+          $target = $target.length && $target
+          || $('[name=' + this.hash.slice(1) +']');
+          if ($target.length) {
+            var targetOffset = $target.offset().top;
+            $('html,body')
+            .animate({scrollTop: targetOffset}, 2000);
+           return false;
+          }
+        }
+      });
+    });
+	</script>
+	
+	<script type="text/javascript">
+		//Navigation bar change
+		
+		$(document).ready(function () {
+			$(document).on("scroll", onScroll);
+			
+			//smoothscroll
+			$('a[href^="#"]').on('click', function (e) {
+				e.preventDefault();
+				$(document).off("scroll");
+				
+				$('a').each(function () {
+					$(this).removeClass('active');
+				})
+				$(this).addClass('active');
+			  
+				var target = this.hash,
+					menu = target;
+				$target = $(target);
+				$('html, body').stop().animate({
+					'scrollTop': $target.offset().top+2
+				}, 500, 'swing', function () {
+					window.location.hash = target;
+					$(document).on("scroll", onScroll);
+				});
+			});
+		});
+
+		function onScroll(event){
+			var scrollPos = $(document).scrollTop();
+			$('#bs-example-navbar-collapse-1 a').each(function () {
+				var currLink = $(this);
+				var refElement = $(currLink.attr("href"));
+				if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+					$('#bs-example-navbar-collapse-1 ul li a').removeClass("active");
+					currLink.addClass("active");
+				}
+				else{
+					currLink.removeClass("active");
+				}
+			});
+		}
+	</script>
+	
+  </body>
+</html>

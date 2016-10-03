@@ -1,0 +1,32 @@
+@media (min-width:360px)and (max-width:640px){
+	
+	.carousel_text h1 {
+	  font-size: 23px;
+	  position: relative;
+	  right: 37px;
+	  top: 215px;
+	  width: 289px;
+	}
+	
+	.carousel_text hr {
+	  position: relative;
+	  right: 58px;
+	  top: 202px;
+	  width: 250px;
+	}
+	.text-center.lorem_text {
+	  padding: 10px;
+	  position: relative;
+	  right: 59px;
+	  text-align: justify;
+	  top: 200px;
+	  width: 327px;
+	}
+	.lorem_para_one {
+	  border-left: 1px solid #ccc;
+	  border-right: 1px solid #ccc;
+	}
+	.navigation_bar {
+	  margin-top: 56px;
+	}
+}
